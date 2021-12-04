@@ -155,7 +155,23 @@ body {
 /* - Font size (paragraph): 18px
 - Weights: 300, 400, 600 */
 
-@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1440px) {
+    .container {
+        /* margin-top: 8%; */
+    }
+    .center-header {
+        font-size: .7rem;
+    }
+    .center-para {
+        font-size: .6rem;
+    }
+    .cont-center-box {
+        font-size: .45rem;
+    }
+    .cont-btm-h5 {
+        font-size: .35rem;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
