@@ -17,13 +17,15 @@ body {
     font-family: 'https://fonts.google.com/specimen/Outfit';
     position: relative;
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
 .container {
     cursor:default;
-    width: 20%;
-    height: 100%;
-    margin-left: 40%; 
-    margin-top: 5%;
+    min-width: 20%;
+    min-height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
